@@ -20,5 +20,5 @@ interface ChangeLog {
 	 *
 	 * @return Raven\Api\ChangeLog\SectionCollection
 	 */
-	public function getSection();
+	public function getSections();
 }
