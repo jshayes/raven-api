@@ -9,16 +9,30 @@ interface SectionEntry {
 	public function getPullRequest();
 
 	/**
-	 * Get the text for this SectionEntry
+	 * Get the title for this SectionEntry
 	 *
 	 * @return string
 	 */
-	public function getText();
+	public function getTitle();
 
 	/**
-	 * Set the text for this SectionEntry
+	 * Set the title for this SectionEntry
 	 *
-	 * @param string $text The text to set for this SectionEntry
+	 * @param string $title The title to set for this SectionEntry
 	 */
-	public function setText($text);
+	public function setTitle($title);
+
+	/**
+	 * Get the sub text for this SectionEntity
+	 *
+	 * @return array
+	 */
+	public function getSubText();
+
+	/**
+	 * Add sub text to this SectionEntity
+	 *
+	 * @param string $text The sub text to add
+	 */
+	public function addSubText($text);
 }
