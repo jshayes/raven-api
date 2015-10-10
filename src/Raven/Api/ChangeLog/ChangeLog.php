@@ -21,4 +21,18 @@ interface ChangeLog {
 	 * @return Raven\Api\ChangeLog\SectionCollection
 	 */
 	public function getSections();
+
+	/**
+	 * Get the version from which this change log is generated
+	 *
+	 * @return string
+	 */
+	public function getPreviousVersion();
+
+	/**
+	 * Get the version to which change log is generated
+	 *
+	 * @return string
+	 */
+	public function getCurrentVersion();
 }
