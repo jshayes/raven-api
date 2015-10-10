@@ -21,4 +21,18 @@ interface PullRequest {
 	 * @return int
 	 */
 	public function getNumber();
+
+	/**
+	 * Get the author of this PullRequest
+	 *
+	 * @return Raven\Api\GitHub\User
+	 */
+	public function getAuthor();
+
+	/**
+	 * Get the name of the base branch for this PullRequest
+	 *
+	 * @return string
+	 */
+	public function getBaseBranch();
 }
