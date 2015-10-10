@@ -3,7 +3,8 @@
 use Countable;
 use IteratorAggregate;
 
-interface EntryCollection extends Countable, IteratorAggregate {
+interface EntryCollection extends Countable, IteratorAggregate
+{
 	/**
 	 * Get an array containing all of the SectionEntries of this collection
 	 *

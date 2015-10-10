@@ -1,6 +1,7 @@
 <?php namespace Raven\Api\ChangeLog;
 
-interface SectionEntry {
+interface SectionEntry
+{
 	/**
 	 * Get the PullRequest associated with this SectionEntry
 	 *

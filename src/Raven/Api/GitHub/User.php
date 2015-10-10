@@ -1,6 +1,7 @@
 <?php namespace Raven\Api\GitHub;
 
-interface User {
+interface User
+{
 	/**
 	 * Get the user's login username
 	 *

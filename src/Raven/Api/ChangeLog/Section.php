@@ -1,6 +1,7 @@
 <?php namespace Raven\Api\ChangeLog;
 
-interface Section {
+interface Section
+{
 	/**
 	 * Get the entries for this section
 	 *

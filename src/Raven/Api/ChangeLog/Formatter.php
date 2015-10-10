@@ -1,6 +1,7 @@
 <?php namespace Raven\Api\ChangeLog;
 
-interface Formatter {
+interface Formatter
+{
 	/**
 	 * Change log output
 	 *

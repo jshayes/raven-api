@@ -1,6 +1,7 @@
 <?php namespace Raven\Api\ChangeLog;
 
-interface ChangeLog {
+interface ChangeLog
+{
 	/**
 	 * Get the title text that appears at the top of the ChangeLog
 	 *

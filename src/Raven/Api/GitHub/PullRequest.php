@@ -1,6 +1,7 @@
 <?php namespace Raven\Api\GitHub;
 
-interface PullRequest {
+interface PullRequest
+{
 	/**
 	 * Retrieve the body content of a pull request
 	 *

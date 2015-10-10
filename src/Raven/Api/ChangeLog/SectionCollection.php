@@ -3,7 +3,8 @@
 use Countable;
 use IteratorAggregate;
 
-interface SectionCollection extends Countable, IteratorAggregate {
+interface SectionCollection extends Countable, IteratorAggregate
+{
 	/**
 	 * Get an array containing all of the Sections of this collection
 	 *
