@@ -4,5 +4,5 @@
         "psr-4": {
             "Raven\\Api\\": "src/Raven/Api"
         }
-    },
+    }
 }
