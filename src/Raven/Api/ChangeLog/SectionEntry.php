@@ -2,7 +2,7 @@
 
 interface SectionEntry {
 	/**
-	 * Get the PullRequets associated with this SectionEntry
+	 * Get the PullRequest associated with this SectionEntry
 	 *
 	 * @return Raven\Api\GitHub\PullRequest
 	 */
