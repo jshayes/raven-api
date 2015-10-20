@@ -36,4 +36,11 @@ interface ChangeLog
 	 * @return string
 	 */
 	public function getCurrentVersion();
+
+	/**
+	 * Add some text to the list of closed tickets
+	 *
+	 * @param string $ticket The ticket that was closed
+	 */
+	public function addClosedTicket($ticket);
 }
