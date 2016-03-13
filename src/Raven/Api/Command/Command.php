@@ -19,6 +19,20 @@ interface Command
     public function getDescription();
 
     /**
+     * Get the array of arguments for this command
+     *
+     * @return array
+     */
+    public function getGetArguments();
+
+    /**
+     * Get the array of options for this command
+     *
+     * @return array
+     */
+    public function getGetOptions();
+
+    /**
      * Run this command
      *
      * @param Raven\Api\Command\Input $input
