@@ -23,14 +23,14 @@ interface Command
      *
      * @return array
      */
-    public function getGetArguments();
+    public function getArguments();
 
     /**
      * Get the array of options for this command
      *
      * @return array
      */
-    public function getGetOptions();
+    public function getOptions();
 
     /**
      * Run this command
