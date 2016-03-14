@@ -5,6 +5,14 @@ namespace Raven\Api\Command;
 interface Command
 {
     /**
+     * Construct a new Command
+     *
+     * @param Raven\Api\Command\ProjectStorage $storage
+     *        The project storage instance
+     */
+    public function __construct(ProjectStorage $storage);
+
+    /**
      * Get the name for this command
      *
      * @return string
