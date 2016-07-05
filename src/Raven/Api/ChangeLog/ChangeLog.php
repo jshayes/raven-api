@@ -43,4 +43,37 @@ interface ChangeLog
 	 * @param string $ticket The ticket that was closed
 	 */
 	public function addClosedTicket($ticket);
+
+	/**
+	 * Set the format string for this ChangeLog's title line. This format can have
+	 * one string replacement character that will be replaced with the title
+	 *
+	 * @param string $format
+	 *        The format string to set
+	 *
+	 * @return void
+	 */
+	public function setTitleFormat($format);
+
+	/**
+	 * Set the format string for each Section's title line. This format can have
+	 * one string replacement character that will be replaced with the title
+	 *
+	 * @param string $format
+	 *        The format string to set
+	 *
+	 * @return void
+	 */
+	public function setSectionLineFormat($format);
+
+	/**
+	 * Set the format string for each SectionEntry's title line. This format can have
+	 * one string replacement character that will be replaced with the title
+	 *
+	 * @param string $format
+	 *        The format string to set
+	 *
+	 * @return void
+	 */
+	public function setSectionEntryLineFormat($format);
 }

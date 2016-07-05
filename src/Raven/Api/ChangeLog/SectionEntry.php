@@ -22,18 +22,4 @@ interface SectionEntry
 	 * @param string $title The title to set for this SectionEntry
 	 */
 	public function setTitle($title);
-
-	/**
-	 * Get the sub text for this SectionEntity
-	 *
-	 * @return array
-	 */
-	public function getSubText();
-
-	/**
-	 * Add sub text to this SectionEntity
-	 *
-	 * @param string $text The sub text to add
-	 */
-	public function addSubText($text);
 }
