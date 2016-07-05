@@ -1,11 +1,13 @@
-<?php namespace Raven\Api\ChangeLog;
+<?php
+
+namespace Raven\Api\ChangeLog;
 
 interface Formatter
 {
-	/**
-	 * Change log output
-	 *
-	 * @param Raven\Api\ChangeLog\ChangeLog
-	 */
-	public function format(ChangeLog $changeLog);
+    /**
+     * Change log output
+     *
+     * @param Raven\Api\ChangeLog\ChangeLog
+     */
+    public function format(ChangeLog $changeLog);
 }
