@@ -2,7 +2,7 @@
     "name": "jshayes/raven-api",
     "autoload": {
         "psr-4": {
-            "Raven\\Api\\": "src/Raven/Api"
+            "SoapBox\\Raven\\Api\\": "src/"
         }
     }
 }
