@@ -1,5 +1,8 @@
 {
     "name": "jshayes/raven-api",
+    "require": {
+        "php": ">=7.0"
+    },
     "autoload": {
         "psr-4": {
             "SoapBox\\Raven\\Api\\": "src/"
